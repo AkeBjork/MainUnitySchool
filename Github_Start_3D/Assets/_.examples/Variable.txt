@@ -1,0 +1,24 @@
+Variabler:
+
+int: heltall, 				-512, 123, 87, 0
+float: flyttal,				512.5f, -3047.78f, 0.0f			Float brukes til tall som trenger komma plass. vi setter alltid på en f etter tallet. Husk punktum, ikke komma i programmering for desimalplasser.  
+double: flytall,			65.1, 798.12, -478.3214, 0.0	Double tar mer plass og kan ha større tall. Brukes uten f etter tallene. Vi kommer ikke til å bruke denne noe særlig
+string:	characters/tekst	"Hello World", "123", "0"		Tekst mellom " " tegnene. "123" er ikke lik 123. Ene er tekst og det andre er en integer (tall).
+bool: boolean				true, false. 					Brukes til logiske valg for å si om noe er sant eller ikke. 
+
+
+
+
+Størrelse, min to max:
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+int: 	-2,147,483,648 to 2,147,483,647
+float 	±1.5 x 10^−45 to ±3.4 x 10^38
+Double 	±5.0 × 10^−324 to ±1.7 × 10^308
+
+
+Hvordan skrive i Visual Studio:
+
+int mittTall = 1;
+float mittTallMedDesimaler = 1.5f;
+string minTekst = "Hei verden";
+bool taEtValg = true;

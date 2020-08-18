@@ -1,0 +1,12 @@
+Vi bruker alltid textMeshPro for å vise tekst i UI
+
+Regler for navngiving: 
+
+Ingen særbokstaver, eksempel æøå. Disse kan være i utskrifter og kommentarer, men ikke i noen form for navn i script-filene. 
+
+Vi bruker CamelCase når vi gir navn på ting. Alle nye ord starter med stor bokstav: Eksempel MinMetode, minVariabel, MinKlasse | MyMethod, myVariable, MyClass. Vi bruker ikke mellomrom. 
+
+Variabler starter med liten bokstav. Eks: fargePaaKnapp, colorOnButton
+Metoder og klasser starter med stor bokstav. Eks: ApneDor(), OpenDoor(), FargeManager, ColorManager
+
+Lær dere dette fra starten av og følg reglene hele veien. Dette er ikke en sannhet innenfor programmering, men det er den jeg ser mest på nettet og på skolene jeg har gått på (best practice). På muntlig/skriftlig så svarer dere: Vi bruker disse reglene ved vår skole, men det viktigste er at vi alltid gjør likt i vårt program mellom alle filene våre. 
