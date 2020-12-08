@@ -6,11 +6,16 @@ public class GameManager : MonoBehaviour
 {
     public KeyCode pauseButton = KeyCode.P;
     private CursorManager cursorManager;
+    public bool manageCursor = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        cursorManager = GameObject.Find("CursorManager").GetComponent<CursorManager>();
+        if (manageCursor)
+        {
+            cursorManager = GameObject.Find("CursorManager").GetComponent<CursorManager>();
+        }
+
     }
 
     // Update is called once per frame
@@ -18,7 +23,10 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(pauseButton))
         {
-            cursorManager.SetVisible(true);
+            if (manageCursor)
+            {
+                cursorManager.SetVisible(true);
+            }
             transform.Find("canvasPauseMenu").gameObject.SetActive(true);
         }
     }
