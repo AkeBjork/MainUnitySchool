@@ -47,5 +47,6 @@ public class MusicManager : MonoBehaviour
     public float GetSFXVolume()
     {
         return sfxVolumeSlider.value;
+
     }
 }
