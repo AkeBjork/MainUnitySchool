@@ -13,8 +13,14 @@ public class _2DController : MonoBehaviour
     public float velocityDrag = 1;
     public float rotationDrag = 1;
 
+    int i = 0;
+
     private Vector3 velocity;
     private float zRotationVelocity;
+
+
+   
+
 
     private void Update()
     {
@@ -44,5 +50,9 @@ public class _2DController : MonoBehaviour
         // update transform
         transform.position += velocity * Time.deltaTime;
         transform.Rotate(0, 0, zRotationVelocity * Time.deltaTime);
+
+
+
     }
+
 }
