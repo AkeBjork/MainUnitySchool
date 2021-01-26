@@ -56,4 +56,16 @@ public class Warrior //: MonoBehaviour. slett denne!
         Debug.Log(name + " got hit with a(n) " + weapon +  " for " + value + " damage!");
     }
 
+
+    //Standard getters and setters metode for variabelen/egenskapen name (getters and setters er en tankegang innenfor programmering som man bruker spesielt i klasser hvor man vil endre/hente info fra variabler)
+    public string GetName()  //Getter
+    {
+        return name;
+    }
+
+    public void SetName(string newName) //Setter
+    {
+        name = newName;
+    }
+
 }
