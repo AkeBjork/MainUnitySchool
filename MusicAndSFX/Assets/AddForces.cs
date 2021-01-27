@@ -7,6 +7,8 @@ public class AddForces : MonoBehaviour
     public float force = 10f;
     public bool randomPitch = true;
     // Start is called before the first frame update
+
+    
     void Start()
     {
         //print(transform.TransformDirection(Vector3.down));
@@ -19,5 +21,8 @@ public class AddForces : MonoBehaviour
             GetComponent<AudioSource>().pitch *= Random.Range(0.7f, 1.3f);
         }
 
+
     }
+
+
 }
